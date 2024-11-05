@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #282c34; /* Dark background */
+    color: #ffffff; /* White text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container, .users-container {
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #3c4043; /* Darker gray for containers */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); /* Enhanced shadow */
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #ffcc00; /* Yellow color for headings */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #cccccc; /* Light gray for labels */
+}
+
+input[type="text"], input[type="email"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 4px;
+    background-color: #4c4f51; /* Dark gray for input fields */
+    color: #ffffff; /* White text for input fields */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #ff5722; /* Vibrant orange for the submit button */
+    color: #ffffff; /* White text for the submit button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+.user {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #474a4d; /* Dark gray for user blocks */
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 10px;
+    border: none;
+    padding: 8px;
+    background-color: #2196f3; /* Blue for action buttons */
+    color: #ffffff; /* White text for buttons */
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #1976d2; /* Darker blue on hover */
+}
